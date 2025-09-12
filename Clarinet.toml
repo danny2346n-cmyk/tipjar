@@ -5,6 +5,11 @@ authors = []
 telemetry = true
 cache_dir = './.cache'
 requirements = []
+[contracts.STX_Phoenix]
+path = 'contracts/STX_Phoenix.clar'
+clarity_version = 3
+epoch = 3.1
+
 [contracts.tipjar]
 path = 'contracts/tipjar.clar'
 clarity_version = 3
